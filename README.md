@@ -3,9 +3,9 @@
 **Fatec Osasco – Faculdade de Tecnologia Prefeito Hirant Sanazar**  
 **Curso:** Graduação em Desenvolvimento de Software Multiplataforma (DSM)  
 **Integrantes do Grupo:**
-- Bruno Santos Ichikawa
-- Geovana Correa dos Santos
-- Isabela de Sousa Veloso  
+- Bruno Santos Ichikawa (RA: 2161392613006)
+- Geovana Correa dos Santos (RA: 2161392613022)
+- Isabela de Sousa Veloso (RA: 2161392613028)  
 **Linguagem Utilizada:** Python 3 (Biblioteca Padrão)
 
 ---
