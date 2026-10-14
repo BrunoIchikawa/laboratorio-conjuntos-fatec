@@ -13,7 +13,10 @@ O professor pediu para programarmos em Python os conceitos de **Teoria dos Conju
 
 ## 2. DIVISÃO DA APRESENTAÇÃO (SE FORMOS APRESENTAR)
 
-### 👤 Pessoa 1: Abertura e Parte 1 (Conjuntos Básicos)
+## 2. INTEGRANTES E DIVISÃO DA APRESENTAÇÃO
+**Integrantes:** Bruno Santos Ichikawa, Geovana Correa dos Santos, Isabela de Sousa Veloso
+
+### 👤 Geovana: Abertura e Parte 1 (Conjuntos Básicos)
 - **O que falar:**
   - "Nosso trabalho implementa a Teoria dos Conjuntos em Python."
   - "O professor pediu um desafio: **não usar os atalhos prontos do Python** (como `|` ou `&`)."
@@ -21,14 +24,14 @@ O professor pediu para programarmos em Python os conceitos de **Teoria dos Conju
   - "Por exemplo, na **União**, a gente junta os dois conjuntos, mas sem deixar repetir elementos. Na **Interseção**, a gente só pega o que existe nos dois ao mesmo tempo."
   - "E criamos uma função de teste que compara o nosso código manual com o código nativo do Python, e deu 100% igual nos testes."
 
-### 👤 Pessoa 2: Parte 2 (Conjuntos Numéricos e Dízimas)
+### 👤 Isabela: Parte 2 (Conjuntos Numéricos e Dízimas)
 - **O que falar:**
   - "Na Parte 2, criamos o classificador de números."
   - "Ele testa se o número é Natural ($\mathbb{N}$), Inteiro ($\mathbb{Z}$), Racional ($\mathbb{Q}$), Irracional ($\mathbb{I}$) ou Real ($\mathbb{R}$)."
   - "Se o número for uma dízima como $1,2(5)$, o programa calcula a **fração geratriz** algebricamente (aquela conta que multiplica por 100 e por 10 para cortar a parte infinita) e simplifica pelo MDC de Euclides, achando $113/90$."
   - "Testamos exatamente os 12 números da tabela do enunciado e todos bateram com o gabarito oficial."
 
-### 👤 Pessoa 3: Parte 3 (Aplicações Reais) e Conclusão
+### 👤 Bruno: Parte 3 (Aplicações Reais) e Conclusão
 - **O que falar:**
   - "Na Parte 3, aplicamos conjuntos em problemas reais de computação."
   - "O primeiro foi o **Índice de Jaccard**, que mede afinidade entre pessoas dividindo a interseção dos gostos pela união. É a mesma matemática que o Spotify usa para recomendar músicas."

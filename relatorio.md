@@ -1,5 +1,6 @@
 # Relatório Técnico: Teoria dos Conjuntos na Prática Computacional
 **Disciplina:** Matemática Concreta | **Curso:** Desenvolvimento de Software Multiplataforma – Fatec Osasco  
+**Integrantes:** Bruno Santos Ichikawa, Geovana Correa dos Santos, Isabela de Sousa Veloso  
 **Tema:** Laboratório de Conjuntos e Conjuntos Numéricos
 
 ---

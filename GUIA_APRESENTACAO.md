@@ -1,10 +1,12 @@
 # Guia Completo de Estudo e Apresentação do Código
 ### Especialmente desenvolvido para membros do grupo com pouca experiência em programação
+**Integrantes:** Bruno Santos Ichikawa, Geovana Correa dos Santos, Isabela de Sousa Veloso  
+**Curso:** Desenvolvimento de Software Multiplataforma – Fatec Osasco
 
-> **Olá, colega de equipe!**  
-> Não se preocupe se você não tem muita experiência com programação. Este projeto foi escrito com **código limpo, direto e sem truques complicados**. Você não precisa ser um expert para tirar nota máxima nesta apresentação: basta entender a **lógica** por trás das coisas.  
+> **Olá, Geovana e Isabela!**  
+> Não se preocupem se vocês não têm muita experiência com programação. Este projeto foi escrito com **código limpo, direto e sem truques complicados**. Vocês não precisam ser experts para tirar nota máxima nesta apresentação: basta entender a **lógica** por trás das coisas.  
 > 
-> Este guia foi feito para você ler, entender em 15 minutos e falar na frente do professor com total segurança e naturalidade!
+> Este guia foi feito para vocês lerem, entenderem em 15 minutos e falarem na frente do professor com total segurança e naturalidade!
 
 ---
 
@@ -131,16 +133,16 @@ Ele pega qualquer entrada (como `7`, `-3`, `3/4`, `1,2(5)` ou `√2`) e analisa 
 
 ## 4. Roteiro Sugerido para Apresentação em Grupo (5 a 8 minutos)
 
-### Abertura (Membro 1):
+### Abertura (Geovana):
 > *"Boa noite professor! Nosso grupo desenvolveu o Laboratório de Conjuntos dividindo o projeto em três níveis: básico (operações puras de teoria dos conjuntos), intermediário (classificador numérico com dízimas) e avançado (aplicações práticas em sistemas de recomendação e controle de acesso).*  
 > *O grande diferencial do nosso trabalho foi cumprir o desafio de não usar nenhuma função pronta do Python na Parte 1, implementando tudo na mão com laços `for` e testes `if`, e depois validando automaticamente contra as funções nativas do Python para garantir 100% de precisão."*
 
-### Demonstração da Parte 1 e 2 (Membro 2):
+### Demonstração da Parte 1 e 2 (Isabela):
 > *(Abre o terminal e digita: `python main.py`)*  
 > *"Aqui na Parte 1, nós implementamos união, interseção, diferença, diferença simétrica, pertinência e subconjunto. No Exemplo 1 oficial, quando o usuário digita números repetidos como `1, 2, 2, 3, 4`, nossa função `remover_duplicatas` higieniza a entrada porque na matemática conjuntos não têm repetição.*  
 > *Na Parte 2, nosso classificador identifica se o número é Natural, Inteiro, Racional, Irracional ou Real. Ele aceita frações, decimais, raízes e dízimas periódicas. Por exemplo, na dízima `1,2(5)`, o algoritmo deduz algebricamente a fração geratriz `113/90` e simplifica por MDC."*
 
-### Demonstração da Parte 3 e Encerramento (Membro 3):
+### Demonstração da Parte 3 e Encerramento (Bruno):
 > *"Na Parte 3, nós conectamos a teoria dos conjuntos com a engenharia de software real. Usamos o Índice de Jaccard, que calcula a razão entre a interseção e a união de interesses para recomendar o Caio para a Ana com 40% de afinidade. E no controle de permissões por perfis, mostramos que conceder múltiplos perfis nada mais é do que fazer a União de conjuntos, e checar autorização é verificar se uma ação Pertence ao conjunto de permissões.*  
 > *Todos os gabaritos do enunciado foram validados por 10 testes automatizados que rodam em menos de 1 segundo."*
 

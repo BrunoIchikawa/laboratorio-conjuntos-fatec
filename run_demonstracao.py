@@ -63,6 +63,7 @@ def executar_demonstracao():
     log("=" * 80)
     log("DEMONSTRAÇÃO COMPLETA - LABORATÓRIO DE CONJUNTOS (FATEC OSASCO)")
     log("Curso: Desenvolvimento de Software Multiplataforma | Matemática Concreta")
+    log("Integrantes: Bruno Santos Ichikawa | Geovana Correa dos Santos | Isabela de Sousa Veloso")
     log("=" * 80)
 
     # -------------------------------------------------------------------------

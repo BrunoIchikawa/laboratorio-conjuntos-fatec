@@ -1,6 +1,7 @@
 ================================================================================
 DEMONSTRAÇÃO COMPLETA - LABORATÓRIO DE CONJUNTOS (FATEC OSASCO)
 Curso: Desenvolvimento de Software Multiplataforma | Matemática Concreta
+Integrantes: Bruno Santos Ichikawa | Geovana Correa dos Santos | Isabela de Sousa Veloso
 ================================================================================
 
 ################################################################################

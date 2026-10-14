@@ -422,8 +422,8 @@ def menu_parte3():
 def menu_principal():
     while True:
         cabecalho("LABORATÓRIO DE CONJUNTOS - FATEC OSASCO")
-        print("Curso: Desenvolvimento de Software Multiplataforma")
-        print("Matemática Concreta - Atividade Prática")
+        print("Curso: Desenvolvimento de Software Multiplataforma | Matemática Concreta")
+        print("Integrantes: Bruno Santos Ichikawa | Geovana Correa dos Santos | Isabela de Sousa Veloso")
         print("-" * 70)
         print("1. Parte 1: Teoria dos Conjuntos (Básico - Operações Manuais vs Nativas)")
         print("2. Parte 2: Conjuntos Numéricos (Intermediário - Classificador & Dízimas)")

@@ -2,6 +2,10 @@
 ### Atividade Prática de Matemática Concreta (MC)
 **Fatec Osasco – Faculdade de Tecnologia Prefeito Hirant Sanazar**  
 **Curso:** Graduação em Desenvolvimento de Software Multiplataforma (DSM)  
+**Integrantes do Grupo:**
+- Bruno Santos Ichikawa
+- Geovana Correa dos Santos
+- Isabela de Sousa Veloso  
 **Linguagem Utilizada:** Python 3 (Biblioteca Padrão)
 
 ---
