@@ -1,0 +1,119 @@
+================================================================================
+DEMONSTRAÇÃO COMPLETA - LABORATÓRIO DE CONJUNTOS (FATEC OSASCO)
+Curso: Desenvolvimento de Software Multiplataforma | Matemática Concreta
+================================================================================
+
+################################################################################
+PARTE 1: TEORIA DOS CONJUNTOS (NÍVEL BÁSICO)
+################################################################################
+
+>>> CENÁRIO 1: EXEMPLO 1 OFICIAL (CASO GERAL)
+Entrada Bruta: Conjunto A = [1, 2, 2, 3, 4], Conjunto B = [3, 4, 5, 6], Universo U = 1 a 10
+Conjunto A (tratado) = {1, 2, 3, 4} | Cardinalidade |A| = 4
+Conjunto B (tratado) = {3, 4, 5, 6} | Cardinalidade |B| = 4
+União A ∪ B          = {1, 2, 3, 4, 5, 6}
+Interseção A ∩ B     = {3, 4}
+Diferença A − B      = {1, 2}
+Diferença B − A      = {5, 6}
+Diferença Simétrica  = {1, 2, 5, 6}
+Complemento de A em U= {5, 6, 7, 8, 9, 10}
+3 ∈ A ? Verdadeiro   |   5 ∈ A ? Falso
+{3, 4} ⊆ A ? Verdadeiro   |   {3, 4} ⊂ A ? Verdadeiro
+Validação com Solução Nativa Python: 100% IDÊNTICA (Gabarito Aprovado)
+
+>>> CENÁRIO 2: EXEMPLO 2 OFICIAL (CASOS DE BORDA)
+
+[Situação: Conjunto vazio]
+  Entrada: A = ∅, B = {1, 2}
+  Saída: A ∪ B = {1, 2}; A ∩ B = ∅; A ⊆ B é verdadeiro
+
+[Situação: Conjuntos iguais]
+  Entrada: A = {1, 2, 3}, B = {1, 2, 3}
+  Saída: A − B = ∅; A Δ B = ∅; A ⊆ B é verdadeiro; A ⊂ B é falso
+
+[Situação: Conjuntos disjuntos]
+  Entrada: A = {1, 2}, B = {3, 4}
+  Saída: A ∩ B = ∅; A ∪ B = {1, 2, 3, 4}; A Δ B = {1, 2, 3, 4}
+
+[Situação: Um contido no outro]
+  Entrada: A = {1, 2}, B = {1, 2, 3}
+  Saída: A ⊂ B é verdadeiro; B ⊆ A é falso; B − A = {3}
+
+[Situação: Repetidos na entrada]
+  Entrada: A = {1, 2}, B = ∅
+  Saída: A = {1, 2}; |A| = 2
+
+################################################################################
+PARTE 2: CONJUNTOS NUMÉRICOS (NÍVEL INTERMEDIÁRIO)
+################################################################################
+
+>>> EXEMPLO OFICIAL DE DÍZIMA PERIÓDICA:
+Entrada: 1,2(5)
+Tipo: dízima periódica composta (parte não periódica: 2; período: 5)
+Fração geratriz: 113/90
+Pertence a: Q, R
+Não pertence a: N, Z, I
+
+>>> TABELA DE GABARITO OFICIAL DOS 12 NÚMEROS:
+Entrada    | Pertence a       | Observação
+---------------------------------------------------------------------------
+7          | N, Z, Q, R       | O número simplificado vale 7, que é um número inteiro positivo (Natural).
+-3         | Z, Q, R          | O número vale -3, que é um inteiro negativo, portanto pertence a Z, mas NÃO é natural (N).
+0          | N, Z, Q, R       | O número é 0. Pela convenção adotada no projeto, 0 pertence a N (Naturais).
+3/4        | Q, R             | Equivale à fração irredutível 3/4 (decimal 0.75), portanto pertence a Q, mas não é um número inteiro.
+-5/2       | Q, R             | Equivale à fração irredutível -5/2 (decimal -2.5), portanto pertence a Q, mas não é um número inteiro.
+6/3        | N, Z, Q, R       | O número simplificado vale 2, que é um número inteiro positivo (Natural).
+0,(3)      | Q, R             | Equivale à fração irredutível 1/3 (decimal 0.3333333333333333), portanto pertence a Q, mas não é um número inteiro.
+2,(7)      | Q, R             | Equivale à fração irredutível 25/9 (decimal 2.7777777777777777), portanto pertence a Q, mas não é um número inteiro.
+1,2(5)     | Q, R             | Equivale à fração irredutível 113/90 (decimal 1.2555555555555555), portanto pertence a Q, mas não é um número inteiro.
+0,(9)      | N, Z, Q, R       | O número simplificado vale 1, que é um número inteiro positivo (Natural).
+√9         | N, Z, Q, R       | O número simplificado vale 3, que é um número inteiro positivo (Natural).
+√2         | I, R             | É um número irracional (I) com infinitas casas decimais não periódicas (raiz não exata: √2 ≈ 1.4142...). Por ser irracional, não pode pertencer a Q, Z ou N.
+
+>>> BÔNUS: PRIMOS E DIVISORES:
+Primos de N até 30: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29
+Divisores de 36:    1, 2, 3, 4, 6, 9, 12, 18, 36
+
+################################################################################
+PARTE 3: INTEGRAÇÃO E MINI-PROJETOS (NÍVEL AVANÇADO)
+################################################################################
+
+>>> OPÇÃO 1: RECOMENDAÇÃO POR INTERESSES (ÍNDICE DE JACCARD)
+Interesses de Ana: {rock, jazz, cinema, games}
+Interesses de Bia: {jazz, cinema, séries, viagens}
+Interesses de Caio: {games, tecnologia, cinema}
+
+Par            | Interseção             | União            | Jaccard
+----------------------------------------------------------------------
+Ana e Bia      | {cinema, jazz} (2)     | 6 elementos      | 2/6 = 0.33
+Ana e Caio     | {cinema, games} (2)    | 5 elementos      | 2/5 = 0.40
+Bia e Caio     | {cinema} (1)           | 6 elementos      | 1/6 = 0.17
+
+Resultado esperado: Para a Ana, a recomendação mais forte é o Caio, o de maior afinidade (0.4).
+
+>>> OPÇÃO 2: CONTROLE DE ACESSO POR PERFIS (RBAC)
+Perfis Definidos:
+  leitor = {ler}
+  editor = {ler, editar}
+  admin = {ler, editar, excluir, gerir_usuarios}
+  financeiro = {ver_relatorios}
+
+Cenários de Teste:
+• Usuário com os perfis leitor e editor: permissões = união = {editar, ler}
+• Usuário com os perfis editor e financeiro: permissões = {editar, ler, ver_relatorios}
+• Esse usuário pode excluir? Não, porque excluir ∉ permissões.
+• editor ⊆ admin? Verdadeiro. financeiro ⊆ admin? Falso.
+
+>>> OPÇÃO 3: PRODUTO CARTESIANO E CONJUNTO DAS PARTES (2^n)
+Produto Cartesiano [1, 2] × ['X', 'Y'] = [(1, 'X'), (1, 'Y'), (2, 'X'), (2, 'Y')] (Total: 4)
+Conjunto das Partes de [1, 2, 3] = 8 elementos (2^3 = 8)
+
+>>> OPÇÃO 4: INTERVALOS REAIS [2, 5)
+Intervalo: [2, 5)
+  2 ∈ [2, 5) ? True
+  3.5 ∈ [2, 5) ? True
+  5 ∈ [2, 5) ? False
+
+================================================================================
+TODAS AS ETAPAS E GABARITOS FORAM DEMONSTRADOS E VALIDADOS COM SUCESSO!
+================================================================================
