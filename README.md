@@ -4,7 +4,7 @@
 **Curso:** Graduação em Desenvolvimento de Software Multiplataforma (DSM)   
 **Integrantes do Grupo:**
 - Bruno Santos Ichikawa (RA: 2161392613006)
-- Geovana Correa dos Santos (RA: 2161392613022)
+- Geovana Correa dos Santos (RA:  2161392613022)
 - Isabela de Sousa Veloso (RA: 2161392613028)  
 **Linguagem Utilizada:** Python 3 (Biblioteca Padrão)
 
