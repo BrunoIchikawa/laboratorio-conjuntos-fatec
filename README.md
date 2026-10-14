@@ -1,7 +1,7 @@
 # Laboratório de Conjuntos e Conjuntos Numéricos
 ### Atividade Prática de Matemática Concreta (MC)
 **Fatec Osasco – Faculdade de Tecnologia Prefeito Hirant Sanazar**  
-**Curso:** Graduação em Desenvolvimento de Software Multiplataforma (DSM)  
+**Curso:** Graduação em Desenvolvimento de Software Multiplataforma (DSM)   
 **Integrantes do Grupo:**
 - Bruno Santos Ichikawa (RA: 2161392613006)
 - Geovana Correa dos Santos (RA: 2161392613022)
