@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos pesados de mídia (enunciado em vídeo tem mais de 100MB e o GitHub bloqueia)
+enunciado.mp4
+LaboratorioDeConjuntosScan.pdf
+
+# Arquivos intermediários de compilação/edição
+*.html
+*.docx
+scratch/
+.tempmediaStorage/
+
+# Ambientes virtuais e IDEs
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
